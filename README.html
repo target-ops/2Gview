@@ -1,0 +1,264 @@
+
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Read Me</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            body {
+  font: 400 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
+
+  main {
+    padding: 0px 20px 20px 20px !important;
+  }
+}
+
+main {
+  margin: 0px;
+  max-width: 900px;
+  border: 1px solid #e1e4e8;
+  padding: 10px 40px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+  flex: 0 1 auto;
+  margin: 1em 0;
+  padding: 0;
+  border: none;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:visited {
+  color: #0366d6;
+}
+a:hover {
+  color: #0366d6;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+/**
+  * Code blocks
+  */
+
+code {
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  word-wrap: break-word;
+  padding: 0.2em 0.4em;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+}
+
+pre > code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+  font-size: 100%;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  border-left-width: 3px;
+  padding: 0 1em;
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+blockquote * {
+  font-style: normal !important;
+  letter-spacing: 0;
+  color: #6a737d !important;
+}
+
+/**
+ * Tables
+ */
+table {
+  border-spacing: 2px;
+  display: block;
+  font-size: 14px;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 16px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+th {
+  font-weight: 600;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/**
+ * Others
+ */
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #24292e;
+}
+
+ul {
+  margin-top: 0;
+}
+
+li {
+  color: #24292e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+li + li {
+  margin-top: 0.25em;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #24292e;
+}
+
+a:visited {
+  color: #0366d6;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #eaecef;
+  color: #111;
+  /* Darker */
+}
+
+            </style>
+            <style>
+            pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
+  Theme: GitHub
+  Description: Light theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-light
+  Current colors taken from GitHub's CSS
+*/.hljs{color:#24292e;background:#fff}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#d73a49}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#6f42c1}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#005cc5}.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#032f62}.hljs-built_in,.hljs-symbol{color:#e36209}.hljs-code,.hljs-comment,.hljs-formula{color:#6a737d}.hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#22863a}.hljs-subst{color:#24292e}.hljs-section{color:#005cc5;font-weight:700}.hljs-bullet{color:#735c0f}.hljs-emphasis{color:#24292e;font-style:italic}.hljs-strong{color:#24292e;font-weight:700}.hljs-addition{color:#22863a;background-color:#f0fff4}.hljs-deletion{color:#b31d28;background-color:#ffeef0}
+            </style>
+          </head>
+          <body>
+            <main>
+        <p align="center">
+<img src="https://i.postimg.cc/YSXdd1np/Untitled-2.png">
+</p>
+<p align="center">
+<a href="https://join.slack.com/t/target-ops/shared_invite/zt-2kxdr9djp-YoQSCoRzARa9psxO8aYoaQ"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"></a>
+<a href="https://www.linkedin.com/company/target-ops"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://dev.to/target-ops"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"></a>
+<a href="https://dly.to/13bF3DMZs9K"><img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=for-the-badge&logo=dailydotdev&logoColor=white"></a>
+<a href="https://t.me/targetops"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://www.patreon.com/target_ops"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"></a>
+<img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/target-ops?style=for-the-badge&logoColor=green&cacheSeconds=3600?style=for-the-badge">
+</p>
+<h1 id="🚀-target-ops-2gview">🚀 Target-Ops: 2Gview</h1>
+<h2 id="supercharge-your-gitlab-workflow-🔥">Supercharge Your GitLab Workflow! 🔥</h2>
+<p>Tired of constantly switching tabs to check your pipeline status? Say hello to <code>2Gview</code> - your new favorite browser extension!</p>
+<h3 id="🌟-features">🌟 Features</h3>
+<ul>
+<li><strong>Real-Time Updates</strong>: Watch your pipelines unfold before your eyes, right on your GitLab page.</li>
+<li><strong>Sleek Design</strong>: A beautifully crafted sidebar that seamlessly integrates with GitLab's interface.</li>
+<li><strong>One-Click Access</strong>: Toggle the viewer on and off with a single click.</li>
+<li><strong>Detailed Info</strong>: Get all the crucial pipeline details at a glance.</li>
+</ul>
+<h3 id="💡-how-it-works">💡 How It Works</h3>
+<ol>
+<li><p><strong>Install</strong> the extension <a href="https://chromewebstore.google.com/search/2Gview"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-2Gview-blue?style=flat-square&logo=google-chrome" alt="Chrome Web Store" /></a></p></li>
+<li><p><strong>Set</strong> your GitLab token</p></li>
+<li><p><strong>Browse</strong> to any GitLab project</p></li>
+<li><p><strong>Click</strong> to view your pipelines</p></li>
+</ol>
+<p>It's that simple! No more context switching, no more lost productivity.</p>
+<h3 id="🛠️-tech-stack">🛠️ Tech Stack</h3>
+<p>Built with love using JavaScript and the Chrome Extension API. We leverage GitLab's robust API to bring you up-to-the-second pipeline information.</p>
+<h3 id="🔒-security-first">🔒 Security First</h3>
+<p>Your GitLab token is stored securely in your browser. We never see it, store it, or send it anywhere else.</p>
+<h2 id="🚀-ready-to-boost-your-gitlab-experience">🚀 Ready to Boost Your GitLab Experience?</h2>
+<p>Install GitLab Pipeline Viewer now and take your DevOps workflow to the next level!</p>
+<hr />
+<p><em>2Gview: Because life's too short to keep refreshing your pipeline page.</em> 😎</p>
+            </main>
+          </body>
+        </html>
