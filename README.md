@@ -12,31 +12,42 @@
 </p>
 
 
-# 🚀 Target-Ops: Repo Name
+# 🚀 Target-Ops: 2Gview
 
-Welcome to **Repo Name**, Add Description
+## Supercharge Your GitLab Workflow! 🔥
 
-## 🌟 Features
+Tired of constantly switching tabs to check your pipeline status? Say hello to `2Gview` - your new favorite browser extension!
+
+### 🌟 Features
+
+- **Real-Time Updates**: Watch your pipelines unfold before your eyes, right on your GitLab page.
+- **Sleek Design**: A beautifully crafted sidebar that seamlessly integrates with GitLab's interface.
+- **One-Click Access**: Toggle the viewer on and off with a single click.
+- **Detailed Info**: Get all the crucial pipeline details at a glance.
+
+### 💡 How It Works
+
+1. **Install** the extension [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-2Gview-blue?style=flat-square&logo=google-chrome)](https://chromewebstore.google.com/search/2Gview)
+
+2. **Set** your GitLab token
+3. **Browse** to any GitLab project
+4. **Click** to view your pipelines
+
+It's that simple! No more context switching, no more lost productivity.
+
+### 🛠️ Tech Stack
+
+Built with love using JavaScript and the Chrome Extension API. We leverage GitLab's robust API to bring you up-to-the-second pipeline information.
+
+### 🔒 Security First
+
+Your GitLab token is stored securely in your browser. We never see it, store it, or send it anywhere else.
 
 
-## 📦 Installation
+## 🚀 Ready to Boost Your GitLab Experience?
 
+Install GitLab Pipeline Viewer now and take your DevOps workflow to the next level!
 
-## 🚀 Usage
+---
 
-
-## 💡 Contributing
-We welcome contributions from the community! Feel free to fork the repository and submit pull requests.
-```
-Fork the repository.
-Create a new branch: git checkout -b my-feature-branch.
-Make your changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin my-feature-branch.
-Submit a pull request.
-```
-## Core required for ghpage
-https://github.com/jrnewton/github-readme-to-html 
-```
-npx github-readme-to-html README.md
-cp dist/index.html ./README.html && rm -rf ./dist/
-```
+*2Gview: Because life's too short to keep refreshing your pipeline page.* 😎

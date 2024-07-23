@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Target-Ops 2Gview",
+  "version": "1.0",
+  "description": "View GitLab pipelines on the right side of the page like a BOSS",
+  "permissions": [
+    "storage",
+    "https://gitlab.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://gitlab.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Click Me", 
+    "default_popup": "popup.html" 
+  },
+  "icons": {
+    "16": "favicon-16x16.png",
+    "32": "favicon-32x32.png"
+  }
+}

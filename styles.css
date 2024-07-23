@@ -1,0 +1,54 @@
+#gitlab-pipeline-viewer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f3f3f3;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  #gitlab-pipeline-viewer h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pipeline {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pipeline-id {
+    font-weight: bold;
+  }
+  
+  .pipeline-status {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .pipeline-status.success { background-color: #2ecc71; color: #fff; }
+  .pipeline-status.failed { background-color: #e74c3c; color: #fff; }
+  .pipeline-status.running { background-color: #3498db; color: #fff; }
+  .pipeline-status.pending { background-color: #f39c12; color: #fff; }
+  
+  .pipeline-ref, .pipeline-sha {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-weight: bold;
+  }
